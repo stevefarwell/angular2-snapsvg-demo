@@ -2,6 +2,17 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.9.
 
+Add SnapSvg 
+npm install snapsvg --save
+npm install @types/snapsvg --save-dev
+
+update angular-cli-build to include:
+'snapsvg/dist/*.js'
+
+in src/ index.html, add <script src="vendor/snapsvg/dist/snap.svg.js"></script> 
+
+in the Typescript files where you want to use snap, after the imports add: declare var Snap: any; 
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
