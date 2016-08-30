@@ -8,18 +8,15 @@ declare var Snap: any;
   styleUrls: ['app.component.css']
 })
 export class AppComponent {
-  title = 'Angular 2 (rc4)| Angular-cli (1.0.0-beta.9)| Snap SVG';
+  title = 'Angular 2 (rc4) | Angular-cli (1.0.0-beta.9) | Snap SVG';
 
-
-
-  constructor() {
-
-  }
+  constructor() {}
 
   ngOnInit(){
     this.createSvg();
   }
 
+  //Create svg
   createSvg() {
 
     let svgCanvas;
@@ -37,8 +34,4 @@ export class AppComponent {
     var smallCircle = svgCanvas.circle(100, 150, 70);
 
   }
-
-
-
 }
-
