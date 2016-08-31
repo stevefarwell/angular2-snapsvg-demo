@@ -7,10 +7,12 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  'snapsvg':'vendor/snapsvg/dist'
 };
 
 /** User packages configuration. */
 const packages: any = {
+  snapsvg: { defaultExtension: 'js', main: 'snap.svg.js' }
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
