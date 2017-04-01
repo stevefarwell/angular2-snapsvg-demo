@@ -1,6 +1,6 @@
-# AngularSnapSvgDemo
+# Angular 2 Snapsvg Demo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
 ## Development server
 
