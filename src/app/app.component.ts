@@ -1,18 +1,15 @@
-import {Component} from '@angular/core';
+import {Component} from "@angular/core";
 
-import "snapsvg";
+import "snapsvg-cjs";
 declare var Snap: any;
 
 @Component({
-  moduleId: module.id,
   selector: 'app-root',
-  templateUrl: 'app.component.html',
-  styleUrls: ['app.component.css']
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Angular 2 (rc4) | Angular-cli (1.0.0-beta.9) | Snap SVG';
-
-  constructor() {}
+  title = 'app works!';
 
   ngOnInit(){
     this.createSvg();

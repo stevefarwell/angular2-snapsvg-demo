@@ -1,10 +1,10 @@
-import { Angular2SnapsvgDemoPage } from './app.po';
+import { AngularSnapSvgDemoPage } from './app.po';
 
-describe('angular2-snapsvg-demo App', function() {
-  let page: Angular2SnapsvgDemoPage;
+describe('angular-snap-svg-demo App', () => {
+  let page: AngularSnapSvgDemoPage;
 
   beforeEach(() => {
-    page = new Angular2SnapsvgDemoPage();
+    page = new AngularSnapSvgDemoPage();
   });
 
   it('should display message saying app works', () => {
